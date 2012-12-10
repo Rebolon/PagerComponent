@@ -1,0 +1,6 @@
+
+phpunit.xml
+/tests/cache/
+/tests/logs/
+/nbproject/private/
+/build

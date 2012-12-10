@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./tests/bootstrap.php" colors="true">
+    
+    <testsuites>
+        <testsuite name="Rebolon/pager-component test suite">
+            <directory suffix="Test.php">./Tests</directory>
+	    <exclude>./src/vendor</exclude>
+	    <exclude>./src/Tests/cache</exclude>
+	    <exclude>./src/Tests/logs</exclude>
+	    <exclude>./src/Tests/Units</exclude> <!-- Atoum folder -->
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory>./src</directory>
+            <exclude>
+		    <directory>./src/vendor</directory>
+		    <directory>./src/Tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
