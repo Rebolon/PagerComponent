@@ -1,5 +1,5 @@
 {
-    "name": "Rebolon/pager-component",
+    "name": "rebolon/pager-component",
     "description": "simple pager component. It gives a simple API to manage your own pager.",
     "keywords": ["page","paging","pager"],
     "type": "component",
