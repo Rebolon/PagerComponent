@@ -2,7 +2,7 @@
 <phpunit bootstrap="./tests/bootstrap.php" colors="true">
     
     <testsuites>
-        <testsuite name="Rebolon/pager-component test suite">
+        <testsuite name="rebolon/pager-component test suite">
             <directory suffix="Test.php">./Tests</directory>
 	    <exclude>./src/vendor</exclude>
 	    <exclude>./src/Tests/cache</exclude>
