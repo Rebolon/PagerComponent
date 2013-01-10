@@ -3,8 +3,7 @@ README
 
 Here is a simple Pager for Symfony2
 
-[![Build Status](https://secure.travis-ci.org/Rebolon/PagerComponent.png)] 
-(http://travis-ci.org/#!/Rebolon/PagerComponent)
+[![Build Status](https://travis-ci.org/Rebolon/PagerComponent.png?branch=master)](https://travis-ci.org/Rebolon/PagerComponent)
 
 Why do you need a pager ?
 Because you have a too many item to display on a page. But there is two possibility :
